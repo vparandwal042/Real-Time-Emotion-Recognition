@@ -39,13 +39,10 @@ Pre-processing of the FER2013 dataset just extracts valuable or relevant images 
 3. Want to train the model yourself?<br>
 &emsp;Just change the statement is_model_saved = True to is_model_saved = False.
 
-4. To test the trained model run RTFE_test.py, to get accuracy on the testing dataset.<br>
-&emsp;&emsp;&emsp;python RTFE_test.py
-
-5. If you want to test on images run RTFE_testcustom.py.<br>
+4. If you want to test on images run RTFE_testcustom.py.<br>
 &emsp;&emsp;&emsp;python RTFE_testcustom.py
 
-6. For Real-Time Emotion Recognition:-<br> 
+5. For Real-Time Emotion Recognition:-<br> 
 &emsp;a)run Desktop App Emotion_Recognition.py<br>
 &emsp;&emsp;&emsp;python Emotion_Recognition.py<br><br>
 &emsp;b)run Web App app.py<br>
