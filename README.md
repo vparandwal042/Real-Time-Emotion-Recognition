@@ -78,8 +78,3 @@ Pre-processing of the FER2013 dataset just extracts valuable or relevant images 
 &emsp;Shallow CNN -- 75.59%<br>
 &emsp;Deep-CNN    -- 78.29%<br>
 &emsp;Deep-CNN using Google Colab -- 90.95%
-
-## Confusion Matrices
-&emsp;run confmatrix.py<br>
-&emsp;&emsp;python confmatrix.py<br>
-&emsp;this will save both deep and shallow CNN confusion matrices in the Images folder.
