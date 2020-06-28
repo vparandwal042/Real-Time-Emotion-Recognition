@@ -52,7 +52,7 @@ Pre-processing of the FER2013 dataset just extracts valuable or relevant images 
 &emsp;&emsp;&emsp;python app.py<br>
 &emsp;&emsp;after this open browser and enter URL- "http:127.0.0.1:5000". This will open Web-App.
 
-## Model Training:
+## Model Training
 
 **Shallow Convolutional Neural Network (SHCNN)**<br>
 &emsp;First, we built a shallow CNN. This network had two convolutional layers and one FC layer.<br>
@@ -73,13 +73,13 @@ Pre-processing of the FER2013 dataset just extracts valuable or relevant images 
 **Loss Function**<br>
 &emsp;The goal of machine learning and deep learning is to reduce the difference between the predicted output and the actual output. This is also called as a Cost function (C) or Loss function. We have used binary cross-entropy loss function (BCE). BCE loss is used for the binary classification tasks. BCE Loss creates a criterion that measures the Binary Cross Entropy between the target and the output. If we use the BCE Loss function, we need to have a sigmoid layer in our network.
 
-## Accuracy Achieved:
+## Accuracy Achieved
 
 &emsp;Shallow CNN -- 75.59%<br>
 &emsp;Deep-CNN    -- 78.29%<br>
 &emsp;Deep-CNN using Google Colab -- 90.95%
 
-## Confusion Matrix:
+## Confusion Matrices
 &emsp;run confmatrix.py<br>
 &emsp;&emsp;python confmatrix.py<br>
 &emsp;this will save both deep and shallow CNN confusion matrices in the Images folder.
